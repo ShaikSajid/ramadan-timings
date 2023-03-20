@@ -144,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return jsonList
         .map((book) => DataRow(cells: [
               // DataCell(Text(book['No'].toString())),
-              DataCell(Text(book['No'].toString() + " - " + book['Day'])),
+              DataCell(Text(book['No'].toString() + "-" + book['Day'])),
               DataCell(Text(book['Date'])),
               DataCell(Text(book['Sehri'])),
               DataCell(Text(book['Iftar']))
